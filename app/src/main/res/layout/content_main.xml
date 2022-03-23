@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:fillViewport="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.cse299.chemical_identifier.activities.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/status_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click Detect Text to start Scanning"
+            android:textAppearance="@style/TextAppearance.Design.Hint"
+            android:textColor="#5a464d"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/dashed_border"
+            android:minHeight="@dimen/text_value_min_height"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <CheckBox
+            android:id="@+id/use_flash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:checked="false"
+            android:text="@string/use_flash" />
+
+        <Button
+            android:id="@+id/read_text_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/button_margin_top"
+            android:background="#5a464d"
+            android:text="@string/read_text"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/copy_text_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/button_margin_top"
+            android:background="#5a464d"
+            android:text="@string/copy_text"
+            android:textColor="@android:color/white" />
+        <Button
+            android:id="@+id/dataBaseButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5a464d"
+            android:layout_marginTop="@dimen/button_margin_top"
+            android:text="Go to DataBase"
+            android:textColor="@android:color/white"/>
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5a464d"
+            android:layout_marginTop="@dimen/button_margin_top"
+            android:text="Search Safe Shelfs"
+            android:textColor="@android:color/white"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

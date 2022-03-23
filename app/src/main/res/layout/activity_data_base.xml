@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cse299.chemical_identifier.activities.MainActivity">
+
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:text="CHEMICAL NAME : "
+            android:textStyle="bold"
+            android:textColor="#5a464d"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:textStyle="bold"
+            android:textColor="#5a464d"
+            android:textSize="20sp"
+            android:id="@+id/CHEMICALNAMEtextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:text="CONCENTRATION : "
+            android:textStyle="bold"
+            android:textColor="#5a464d"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:textStyle="bold"
+            android:textColor="#5a464d"
+            android:textSize="20sp"
+            android:id="@+id/CONCENTRATIONtext_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:text="TYPE : "
+            android:textStyle="bold"
+            android:textColor="#5a464d"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:textStyle="bold"
+            android:textColor="#5a464d"
+            android:textSize="20sp"
+            android:id="@+id/TYPEtext_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:text="SHELF LOCATION : "
+            android:textStyle="bold"
+            android:textColor="#5a464d"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:textStyle="bold"
+            android:textColor="#5a464d"
+            android:textSize="20sp"
+            android:id="@+id/SHELF_LOCATIONtext_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:text="DANGEROUS LOCATION : "
+            android:textStyle="bold"
+            android:textColor="#5a464d"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:textStyle="bold"
+            android:textColor="#5a464d"
+            android:textSize="20sp"
+            android:id="@+id/DANGEROUS_LOCATIONtext_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:text="DANGER LEVEL : "
+            android:textStyle="bold"
+            android:textColor="#5a464d"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:textStyle="bold"
+            android:textColor="#5a464d"
+            android:textSize="20sp"
+            android:id="@+id/DANGER_LEVELtext_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/UPDATE_ID1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/button_margin_top"
+        android:background="@android:color/black"
+        android:text="ADD"
+        android:textColor="@android:color/holo_red_dark" />
+    <Button
+        android:id="@+id/DELETE_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/button_margin_top"
+        android:background="@android:color/black"
+        android:text="DELETE"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <Button
+        android:id="@+id/DISPLAY_ID_Button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/button_margin_top"
+        android:background="@android:color/black"
+        android:text="DISPLAY ALL DATA"
+        android:textColor="@android:color/holo_red_dark" />
+
+</LinearLayout>
+
